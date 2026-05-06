@@ -45,5 +45,11 @@
     "test": "./github-release-from-changelog.js --dryRun",
     "release": "npmpub --no-release --skip-test",
     "postrelease": "./github-release-from-changelog.js"
+  },
+  "overrides": {
+    "cross-spawn": ">=6.0.6"
+  },
+  "resolutions": {
+    "cross-spawn": ">=6.0.6"
   }
 }
